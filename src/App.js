@@ -6,6 +6,8 @@ import NotFound from './components/NotFound/NotFound';
 import OrderReview from './components/OrderReview/OrderReview';
 import PlaceOrder from './components/PlaceOrder/PlaceOrder';
 import Shop from './components/Shop/Shop';
+import Login from './components/Login/Login';
+import Resgister from './components/Resgister/Resgister';
 
 function App() {
   return (
@@ -14,7 +16,7 @@ function App() {
         <Header></Header>
         <Switch>
           <Route exact path="/">
-            <Shop></Shop>
+           <Shop></Shop>
           </Route>
           <Route path="/shop">
             <Shop></Shop>
@@ -27,6 +29,12 @@ function App() {
           </Route>
           <Route path="/placeorder">
             <PlaceOrder></PlaceOrder>
+          </Route>
+          <Route path="/login">
+            <Login></Login>
+          </Route>
+          <Route path="/resgister">
+            <Resgister></Resgister>
           </Route>
           <Route path="*">
             <NotFound></NotFound>
