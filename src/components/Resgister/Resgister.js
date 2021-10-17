@@ -15,7 +15,8 @@ const Resgister = () => {
                 <br/>
                 <br/>
                 <input type="submit" placeholder=""/>
-
+                
+                <br/>
                 <br/>
 
                 <button>Google Sign Up</button>
